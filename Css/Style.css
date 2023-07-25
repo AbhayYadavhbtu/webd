@@ -540,7 +540,7 @@ text-align: center;
 
         /* FORMS */
         #forms {
-            width: 89%;
+            width: 62%;
             display: flex;
             flex-direction: column;
             border-radius: 13px;
@@ -559,7 +559,7 @@ text-align: center;
             width:100%;
         }
         #imgs {
-            width: 80%;
+            width: 50%;
             display: inline;
             margin: 50px 78px;
             border: 8px double blue;
@@ -573,6 +573,11 @@ text-align: center;
        .dhoni{
         display: flex;
         margin: 5px 2px;
+       }
+       .grids {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
        }
     }
     @media only screen and  (min-width: 500px) and (max-width: 950px){
@@ -686,7 +691,7 @@ text-align: center;
             }
         }
         #forms {
-            width: 81%;
+            width: 60%;
             display: flex;
             flex-direction: column;
             border-radius: 13px;
@@ -704,7 +709,7 @@ text-align: center;
         width:100%;
         }
         #imgs {
-        width: 80%;
+        width: 50%;
          margin: 50px 78px;
         padding: 2px 2px;
         height: 330px;
