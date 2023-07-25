@@ -124,20 +124,21 @@
     }
 
     #bg {
-        width: 230px;
-        height: 230px;
+         width: 14vw;
+        height: 14vw;
         border-radius: 50%;
     }
     #bgs{
         
-        width: 500px;
-    height: 217px;
+         width: 30vw;
+    height: 14vw;
+
 
     }
     #bgss{
         
-        width: 500px;
-    height: 225px;
+        width: 30vw;
+    height: 20vw;
 
     }
     #about{
@@ -146,13 +147,13 @@
         border-radius: 15px;
         margin: 2px 2px ;
         padding: 5px 15px;
-        height: 200px;
-        font-family: 'Baloo Bhai', cursive;
-        font-size: 23px;
+        height: 14vw;
+         font-family: 'Kalam', cursive;
+        font-size: 1.5vw;
         text-align:justify;
         margin-left: 37px;
         color: #08165c;
-        
+        overflow:auto;
     }
     #abouts{
         width: 50%;
@@ -160,12 +161,13 @@
         border-radius: 15px;
         margin: 2px 2px ;
         padding: 5px 15px;
-        height: 225px;
-        font-family: 'Baloo Bhai', cursive;
-        font-size: 23px;
+        height: 19vw;
+        font-family: 'Kalam', cursive;
+        font-size: 1.5vw;
         text-align:justify;
         margin-left: 37px;
         color:#08165c;
+        overflow:auto;
         
     }
     #head{
@@ -178,11 +180,11 @@
     }
     #container{
         display: flex;
-        gap: 200px;
+        gap: 15vw;
     }
     #containers{
         display: flex;
-        gap: 100px;
+        gap: 8vw;
     }
     .btn{
         border-radius: 10px;
@@ -207,11 +209,14 @@
     
     #co{
         background-color: gray;
-        height: 150px;
+        height: 200px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(319px, 1fr));
+        margin-top: -13px;
     }
     #heads{
         margin-top: 10px;
-        margin-left: 16px;
+        
         font-size: 51px;
         margin-bottom: 13px;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -454,8 +459,9 @@
         </div>
 
     </div>
-    <div id="co">
     <h2 id="heads">Skills</h2>
+    <div id="co">
+    
     
     <btn class="btn">HTML</btn>
     <btn class="btn">CSS</btn>
