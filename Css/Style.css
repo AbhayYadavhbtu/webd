@@ -220,7 +220,7 @@
     box-sizing: border-box;
     padding: 20px;
     margin: 10px;
-
+    font-size: 2rem;
 
 }
 
@@ -762,7 +762,7 @@ text-align: center;
         }
         .navbar li a {
             padding: 2px 10px;
-           font-size: 15px;
+           font-size: 14px;
         }
 
         .search {
@@ -789,6 +789,10 @@ text-align: center;
         }
         #he::before {
             border-radius: 0px;
+        }
+        #cena{
+            padding:3px;
+            font-size: 20px;
         }
         .imgtags {
             display: none;
