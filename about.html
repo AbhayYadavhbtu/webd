@@ -1,5 +1,4 @@
-
-
+<!DOCTYPE html>
 <html lang="en"><!-- Here lang=en refers english lang.-->
 <!-- ctrl+/ for comment in and out and ctrl +D for replication -->
 
@@ -14,86 +13,88 @@
 
     <title>WEB D BY ABHAY</title>
     <link rel="icon" type="IMAGE/x-icon" href="IMAGE/favicon.ico">
-    <link rel="stylesheet" href="Css/Style.css">
+    <link rel="stylesheet" href="CSS/about.css">
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Cabin+Condensed:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Cabin+Condensed:wght@400;500&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
     <!--A favicon image is displayed to the left of the page title in the browser tab in href u can also give any other image path-->
    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <style>
-    body {
+ body {
     background: url('https://wallpapercave.com/wp/wp2590323.png') no-repeat center center/cover ;
-   
+    
     margin: 2px;
-    }    
+}
 
-    /* NAVIGATION BAR */
+/* NAVIGATION BAR */
 
 
-    .yes {
+.yes {
     transition: all 0.5s ease-in-out;
-    }
-    #yess {
+}
+#yess {
     height: 20px;
     margin: 9px;
     position: absolute;
     top: 4px;
     right: 300px;
-    }
-    #yesss {
+}
+#yesss {
     height: 20px;
     margin: 9px;
     position: absolute;
     top: 4px;
     right: 200px;
-    }
-    #yessss {
+}
+#yessss {
     height: 20px;
     margin: 9px;
     position: absolute;
     top: 4px;
     right: 250px;
-    }
-    .yes:hover {
+}
+.yes:hover {
     transform: rotate(360deg);
-    }
+}
 
-    .navbar {
+.navbar {
     
     border-radius: 30px;
     height: 40px;
     border: 3px solid #b0b0c6;  
-    }
+}
 
-    .navbar ul li {
-    display: flex;
-    }
-    .navbar ul{
+.navbar ul li {
+  display: flex;
+}
+.navbar ul{
     display: flex;
     position: relative;
     top: -15px;
     padding: 4px 46px;
     margin: 12px 2px;
-    }
-    .navbar li a {
+}
+.navbar li a {
     padding: 6px 39px;
     text-decoration: none;
     color: white;
     font-size: 22px;
-    }
+}
 
-    .navbar li a:hover {
+.navbar li a:hover {
     color: red
-    }
+}
 
-    .search {
+.search {
    
     color: white;
     padding: 5px 40px 5px 16px;
-    }
+}
 
-    .navbar input {
+.navbar input {
     border: 2px solid black;
     border-radius: 14px;
     padding: 3px 17px;
@@ -101,16 +102,16 @@
     top: 10px;
     position: absolute;
     right: 10px;
-    }
+}
 
-    #he {
+#he {
     position: fixed;
     top: 3px;
     width: 98.5%;
    
 
-    }
-    #he::before {
+}
+#he::before {
     content: "";
     background-image: url("https://media.istockphoto.com/id/1341466956/photo/black-marble-basalt-abstract-background-onyx-coal-frozen-lava-tube-crag-texture-rippled.jpg?b=1&s=170667a&w=0&k=20&c=vl3zXVzTqkJpYRfEqEPVn42gJEbEjlVDzgMficUe8vA=");
     position: absolute;
@@ -124,16 +125,15 @@
     }
 
     #bg {
-         width: 14vw;
+        width: 14vw;
         height: 14vw;
         border-radius: 50%;
     }
     #bgs{
         
-    width: 30vw;
+        width: 30vw;
     height: 14vw;
-    margin-left: 44px;
-
+        margin-left: 45px;
     }
     #bgss{
         
@@ -148,12 +148,13 @@
         margin: 2px 2px ;
         padding: 5px 15px;
         height: 14vw;
-         font-family: 'Kalam', cursive;
+        font-family: 'Kalam', cursive;
         font-size: 1.5vw;
         text-align:justify;
         margin-left: 37px;
-        color: #08165c;
+        color: #977026;
         overflow:auto;
+        
     }
     #abouts{
         width: 50%;
@@ -166,7 +167,7 @@
         font-size: 1.5vw;
         text-align:justify;
         margin-left: 37px;
-        color:#08165c;
+        color: #977026;
         overflow:auto;
         
     }
@@ -189,15 +190,15 @@
     .btn{
         border-radius: 10px;
        border: 2px solid rgb(243, 133, 94);
-        height: 3vw;
        margin: 8px 11px;
+       height: 3vw;
         font-size: 25px;
         padding: 6px 26px;
         font-family: 'Rubik Wet Paint', cursive;
         color: #420421;
         cursor: pointer;
         background: linear-gradient(90deg,#d0e1e3,#2196f3);
-    }
+}
         
     .btn:hover {
         border-radius: 12px;
@@ -214,9 +215,10 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(319px, 1fr));
         margin-top: -13px;
-    }
+        }
+    
     #heads{
-        margin-top: 50px;
+        margin-top: 40px;
         
         font-size: 3vw;
         margin-bottom: 13px;
@@ -225,15 +227,15 @@
         background-color: gray;
     }
     footer{
-    background: black;
-    color: white;
-    padding: 9px 20px;
-    margin-top: 1px;
-    }
-    .center{
-    text-align: center;
-    font-size: 0.95vw;
-    }
+        background: black;
+        color: white;
+        padding: 9px 20px;
+        margin-top: 1px;
+        }
+        .center{
+        text-align: center;
+        font-size: 1.5vw;
+        }
     #cse{
         margin-top: 40px;
         margin-bottom: 40px;
@@ -259,10 +261,9 @@
         background-color: gray;
         text-align: center;
         color: #f4f5f1;
-        font-size: 0.94vw;
-        font-family: 'Kalam', cursive;
+        font-size: 1.7vw;
     }
-     HR{
+    HR{
         border-top-style: dotted;
         border-right-style: none;
         border-left-style: none;
@@ -310,8 +311,8 @@
       
 
      
-      }
-      @media only screen and  (min-width: 500px) and (max-width: 950px){
+  }
+  @media only screen and  (min-width: 500px) and (max-width: 950px){
       
       #yess {
           left:80px;
@@ -377,9 +378,9 @@
           border-radius: 0px;
       }
     
-      }
+  }
   
-      @media only screen and  (min-width: 300px) and (max-width: 500px){
+  @media only screen and  (min-width: 300px) and (max-width: 500px){
       
       #yess {
           left:80px;
@@ -446,15 +447,16 @@
           display: none;
       }
      
-      }
+  }
 
+       
 </style>
 
 <body>
     <header id="he">
         <nav class="navbar">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="AB.html">Home</a></li>
                 <li><a
                         href="about.html">About</a>
                 </li>
@@ -475,7 +477,7 @@
         </nav>
     </header>
     <h2 id="head">About</h2>
-    <div id="container">
+    <div id="container"  >
         <div id="about">
             Hi , I am Abhay Yadav and I am from Varanasi Uttar Pradesh,currently pursuing  my B.tech degree in Computer Science And Engineering at Harcourt Butler Technical University,Kanpur.
 
@@ -487,7 +489,7 @@
 
     </div>
     <h2 id="head">College</h2>
-    <div id="containers">
+    <div id="containers" >
         <div>
             <img src="IMAGE/bgs.jpg" id="bgs">
         </div>
@@ -495,7 +497,6 @@
             The university has four schools with thirteen Undergraduate programs in Engineering and technology with Postgraduate program and PH.D. Program. The University is spread across two campuses, the east campus  and the west campus  situated about 3 km apart. 
             Some of the top recruiters of HBTU are Google, Reliance Industries, Samsung Engineering, Global Logic, OYO, IBM, Optum and many others. 
         </div>
-       
 
     </div>
     <h2 id="head">City</h2>
@@ -508,28 +509,26 @@
             <img src="IMAGE/vns.png" id="bgss">
         </div>
 
-    </div>
+    </div >
     <HR>
     <div >
     <h2 ID="heads">EDUCATION 🎓🎓</h2>
     <h2  class="edt">🚸&nbsp;HIGH SCHOOL: HSPS JAUNPUR -2018 (95%)</h2>
     <h2 class="edt">🚸&nbsp;INTERMEDIATE: HSPS JAUNPUR -2020 (95.2%)</h2>
-    <h2 class="edt">🚸&nbsp;UG COLLEGE: HBTU KANPUR -2021-2025 </h2>
-    <h2 class="edt">🚸&nbsp;B-TECH : CSE (9.4CGPA TILL NOW)</h2>
+    <h2 class="edt">🚸&nbsp;UG COLLEGE: HBTU KANPUR -2021-2025 (9.4CGPA TILL NOW)</h2>
     
     </div>
     <h2 id="heads">Skills 🤹‍♀️🤹‍♀️</h2>
+    
     <div id="co">
-    
-    
-    <btn class="btn">HTML</btn>
-    <btn class="btn">CSS</btn>
-    <btn class="btn">JAVASCRIPT</btn>
-    <btn class="btn">NODE.JS</btn>
-    <btn class="btn">MONGODB</btn>
-    <btn class="btn">C/C++</btn>
-    <btn class="btn">PYTHON</btn>
-    <btn class="btn">REACT</btn>
+    <btn class="btn" data-aos="fade-right">HTML</btn>
+    <btn class="btn" data-aos="fade-up">CSS</btn>
+    <btn class="btn" data-aos="fade-down">JAVASCRIPT</btn>
+    <btn class="btn" data-aos="fade-left">NODE.JS</btn>
+    <btn class="btn" data-aos="fade-right">MONGODB</btn>
+    <btn class="btn" data-aos="fade-up">C/C++</btn>
+    <btn class="btn" data-aos="fade-down">PYTHON</btn>
+    <btn class="btn" data-aos="fade-left">REACT</btn>
     </div>
     <div ID="cse">
         <h1>FOLLOW ME <img src="https://img.freepik.com/free-vector/facebook-like-icon_1017-8081.jpg?w=2000"></h1>
@@ -539,11 +538,18 @@
         <a href="https://www.linkedin.com/in/abhay-kumar-yadav-1395b122b">&nbsp;&nbsp;LINKEDIN</a>
         </div>
     </div>
-     <footer>
+    <footer>
         <div class="center">
             Copyright &copy; www.WebDevelopment.com. All rights reserved!
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+           
+            duration: 500
+        });
+    </script>
     
 </body>
 </html>
