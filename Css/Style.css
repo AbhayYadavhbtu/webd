@@ -730,36 +730,37 @@ body {
 
 /* ANIMATION */
 
- .anims{
-   text-align: center;
-} 
-
 .ani {
     width: 250px;
     height: 180px;
     position: relative;
-    animation: abhay 20s  infinite alternate;
+    animation: abhay 2s  infinite alternate;
 }
+
 @keyframes abhay {
     0% {
         
         left: 0%;
     }
 
-    33% {
-        left: 100%;
+    25% {
+        transform: translateX(200px);
+        
     }
 
-    66% {
+    50% {
            
             left: 0%;
         }
 
     100% {
 
-        left: -100%;
+        transform: translateX(100px);
     }
 }
+
+
+
 
 
 */ */
