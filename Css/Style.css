@@ -512,7 +512,7 @@ body {
     border-left: 5px double aqua;
     border-right: 5px double aqua;
     margin: 2px;
-
+    width: 100vw;
 }
 
 #bmw {
@@ -730,11 +730,13 @@ body {
 
 /* ANIMATION */
 
+
 .ani {
     width: 250px;
     height: 180px;
     position: relative;
     animation: abhay 2s  infinite alternate;
+    z-index: -1;
 }
 
 @keyframes abhay {
@@ -758,9 +760,6 @@ body {
         transform: translateX(100px);
     }
 }
-
-
-
 
 
 */ */
@@ -834,22 +833,25 @@ footer {
 
     /* NAVIGATIOM */
     #yess {
-        top: -2px;
+        top: 2px;
         right: 300px;
     }
 
     #yesss {
-        top: -2px;
+        top: 2px;
         right: 200px;
     }
 
     #yessss {
-        top: -2px;
+        top: 2px;
         right: 250px;
     }
 
     .navbar {
-        height: 30px;
+        height: 40px;
+    }
+    .navbar input {
+        top:15px;
     }
 
     .navbar ul li {
@@ -861,7 +863,7 @@ footer {
     }
 
     .navbar li a {
-        padding: 8px 15px;
+        padding: 12px 15px;
         font-size: 18px;
     }
 
@@ -874,14 +876,35 @@ footer {
         border-radius: 30px;
     }
 
-    #ab {
-        margin: 41px 2px 2px 5px;
-    }
 
     /* ANIMATION */
     .ani {
         width: 180px;
         height: 120px;
+        animation: abhay 1s infinite alternate;
+        position: relative;
+    }
+
+    @keyframes abhay {
+        0% {
+            
+            left: 0%;
+        }
+    
+        25% {
+            transform: translateX(55px);
+            
+        }
+    
+        50% {
+               
+                left: 0%;
+            }
+    
+        100% {
+    
+            transform: translateX(55px);
+        }
     }
 
     /* FORMS */
@@ -934,6 +957,8 @@ footer {
     .olist {
         width: 45.5%;
     }
+
+    
 }
 
 @media only screen and (min-width: 500px) and (max-width: 950px) {
@@ -1154,7 +1179,31 @@ footer {
     .ani {
         width: 50px;
         height: 70px;
+        animation: abhay 3s infinite alternate;
     }
+
+    @keyframes abhay {
+        0% {
+            
+            left: 0%;
+        }
+    
+        25% {
+            transform: translateX(100px);
+            
+        }
+    
+        50% {
+               
+                left: 0%;
+            }
+    
+        100% {
+    
+            transform: translateX(50px);
+        }
+    }
+
 
    #forms {
         width: 74%;
